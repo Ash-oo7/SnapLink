@@ -47,7 +47,7 @@ export async function getClicksForUrl(url_id) {
     const { data, error } = await supabase
         .from("clicks")
         .select("*")
-        .in("url_id", url_id)
+        .eq("url_id", url_id)
 
 
     if (error) {

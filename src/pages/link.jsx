@@ -148,7 +148,7 @@ const Link = () => {
               <CardTitle>Location Data</CardTitle>
               <Location stats={stats} />
               <CardTitle>Device Info</CardTitle>
-              <DeviceStats stats={stats} />
+              <Device stats={stats} />
             </CardContent>
           ) : (
             <CardContent>
